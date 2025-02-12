@@ -161,6 +161,9 @@ h3 {
   display: flex;
   align-items: center;
   gap: 0.25rem 1rem;
+  border: 2px solid var(--border-primary);
+  padding-inline: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 .pokemon-move-grid {

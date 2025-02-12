@@ -1,5 +1,11 @@
-export function TypeCard() {
+import { pokemonTypeColors } from "../utils/index.js";
+
+export default function TypeCard(props) {
+    const { type } = props
+
     return (
-        <div></div>
+        <div className="type-tile" style={{ color: pokemonTypeColors?.[type]?.color, backgroundColor: pokemonTypeColors?.[type]?.background }}>
+            <p>{type}</p>
+        </div>
     )
 }
