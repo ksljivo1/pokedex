@@ -9,3 +9,5 @@ A simple Pokédex application built using **React.js** that allows users to sear
 - 💾 **Local caching** for faster performance  
 - 🎨 **Responsive design** for desktop & mobile  
 - ⚡ **Uses PokéAPI** to fetch real-time Pokémon data  
+
+### Visit the site: [link](https://pokedex-react-project123.netlify.app/).
